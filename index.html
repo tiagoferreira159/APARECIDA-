@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Irmã Aparecida - Missão de Acolhimento</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to bottom right, #f9f9ff, #e0f7fa);
+      color: #333;
+    }
+    header {
+      background: #00796b;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+    }
+    .intro img {
+      max-width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .intro-text {
+      flex: 1;
+    }
+    .intro-text h2 {
+      color: #00796b;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: white;
+      border-left: 6px solid #00796b;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    .contact-form {
+      background: white;
+      margin-top: 3rem;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    }
+    .contact-form h3 {
+      margin-top: 0;
+      color: #00796b;
+    }
+    .contact-form label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: 600;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: inherit;
+    }
+    .contact-form button {
+      margin-top: 1.5rem;
+      background-color: #00796b;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .contact-form button:hover {
+      background-color: #004d40;
+    }
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Irmã Aparecida Soares</h1>
+  <p>“Acolher é Abraçar com Coração!”</p>
+</header>
+
+<div class="container">
+  <div class="intro">
+    <img src="foto-irma-aparecida.png" alt="Irmã Aparecida">
+    <div class="intro-text">
+      <h2>Sobre Mim</h2>
+      <p>Sou Aparecida Soares, missionária e especialista em acolhimento. Minha missão é tocar corações, ouvir com empatia e transformar cada atendimento em um gesto de amor. Minha fé, família e propósito guiam cada passo desta jornada espiritual e humana.</p>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div class="card">🌟 <strong>Especialista em Acolhimento</strong></div>
+    <div class="card">🧭 <strong>Mentora de Atendimento Humanizado</strong></div>
+    <div class="card">💙 <strong>Empatia como Diferencial</strong></div>
+    <div class="card">🎯 <strong>Missão: Acolher com Verdade</strong></div>
+    <div class="card">🏡 <strong>Família como Base</strong></div>
+    <div class="card">🙏 <strong>Fé como Princípio</strong></div>
+  </div>
+
+  <div class="contact-form">
+    <h3>Entre em Contato</h3>
+    <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required>
+      <label for="telefone">Telefone</label>
+      <input type="text" id="telefone" name="telefone">
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Irmã Aparecida - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
